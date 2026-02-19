@@ -1,0 +1,158 @@
+1. Project Title:
+
+Mobile Sales Analysis Dashboard
+
+🔹 2. Objective:
+
+The objective of this project is to analyze mobile sales performance based on:
+
+Total Sales
+
+Quantity Sold
+
+Transactions
+
+Payment Methods
+
+Customer Ratings
+
+City-wise performance
+
+Time-based trends (Year, Month, Day)
+
+This dashboard helps management make data-driven decisions.
+
+🔹 3. KPI Cards (Top Section)
+
+At the top of the dashboard, we have key performance indicators:
+
+Total Sales: 5M
+
+Total Quantity Sold: 113
+
+Total Transactions: 22
+
+Average Sales: 42.72K
+
+These KPIs give a quick summary of overall business performance.
+
+🔹 4. Filters / Slicers
+
+We have interactive filters for:
+
+📱 Mobile Model (Example: Galaxy A51)
+
+🏷 Brand (Samsung)
+
+💳 Payment Method (Cash, UPI, Credit Card, Debit Card)
+
+🏙 City (Bangalore)
+
+📅 Month Selection (January–December)
+
+These slicers allow users to dynamically filter and analyze the data.
+
+🔹 5. Visualizations Explanation
+🗺 1. Total Sales by City (Map)
+
+Shows geographical sales distribution across India.
+
+Larger bubbles represent higher sales.
+
+Helps identify high-performing cities.
+
+📈 2. Units Sold by Year and Month (Line Chart)
+
+Displays sales trend over time.
+
+Shows growth from 2022 to 2023.
+
+Slight variation in 2024.
+
+Useful for trend analysis and forecasting.
+
+📊 3. Units Sold by Year (Bar Chart)
+
+Compares yearly performance.
+
+2023 shows highest sales.
+
+Helps identify best-performing year.
+
+🥧 4. Transactions by Payment Method (Pie Chart)
+
+Shows customer payment preference.
+
+Credit Card, UPI, Cash, Debit Card distribution.
+
+Helps understand digital vs cash usage trends.
+
+⭐ 5. Customer Ratings (Bar Chart)
+
+Shows number of customers giving 1–5 star ratings.
+
+Majority ratings are 4 and 5 stars.
+
+Indicates high customer satisfaction.
+
+📅 6. Total Sales by Day Name (Area/Line Chart)
+
+Shows which day generates more sales.
+
+Sunday appears highest.
+
+Useful for planning promotions and offers.
+
+📋 7. Brand Summary Table
+
+Shows Brand-wise Total Sales and Quantity.
+
+Example: Samsung – 5,160,039 Sales, 113 Units.
+
+🔹 6. Data Modeling & DAX (If Asked)
+
+You can say:
+
+Used Power Query for data cleaning.
+
+Created relationships between:
+
+Sales Table
+
+Date Table
+
+Product Table
+
+Customer Table
+
+Created DAX measures like:
+
+Total Sales = SUM(Sales[Amount])
+
+Total Quantity = SUM(Sales[Quantity])
+
+Average Sales = AVERAGE(Sales[Amount])
+
+🔹 7. Business Insights
+
+From this dashboard we found:
+
+✔ 2023 was the best performing year
+✔ Sunday generates highest sales
+✔ Most customers prefer digital payments
+✔ High customer satisfaction (4 & 5 ratings dominate)
+✔ Bangalore is one of the top-performing cities
+
+🔹 8. Conclusion
+
+This Power BI dashboard helps:
+
+Monitor sales performance
+
+Track customer behavior
+
+Identify top cities & days
+
+Understand payment trends
+
+Improve business decision-making
